@@ -8,7 +8,7 @@ public class TelaInicialGameState:GameBaseState
      }
     public override void updateState(GameStateManager gameState) {
             if (Input.GetKeyDown(KeyCode.Space))  {
-                gameState.switchState(gameState.telaCreditosState);
+                gameState.switchState(gameState.playingState);
             }
     }
 
