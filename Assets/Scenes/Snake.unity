@@ -277,7 +277,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241695468}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -486,7 +486,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540056455}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -612,7 +612,7 @@ MonoBehaviour:
   segments: []
   segmentPreFab: {fileID: 0}
   ativo: 0
-  gamestate: {fileID: 1262964692}
+  gameState: {fileID: 0}
 --- !u!1 &583628631
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,7 +684,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583628631}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -818,7 +818,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708089283}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -905,7 +905,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912230334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1039,7 +1039,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240978365}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1131,6 +1131,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a212e480bd833241a5c9f3521d1c3ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 540056455}
+  food: {fileID: 912230334}
+  parede1: {fileID: 583628631}
+  parede2: {fileID: 241695468}
+  parede3: {fileID: 1240978365}
+  parede4: {fileID: 708089283}
 --- !u!4 &1262964693
 Transform:
   m_ObjectHideFlags: 0

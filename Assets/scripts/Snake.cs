@@ -79,7 +79,7 @@ public void ResetState()    {
         direction = Vector2Int.right;
         transform.position = Vector3.zero;
 
-        destroiCobra();
+        // destroiCobra();
         score = 0;
     }
 
